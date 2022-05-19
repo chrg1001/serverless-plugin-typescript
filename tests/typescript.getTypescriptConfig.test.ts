@@ -27,7 +27,7 @@ describe('getTypescriptConfig', () => {
             configFilePath: undefined,
             lib: ["lib.es2015.d.ts"],
             moduleResolution: 2,
-            outDir: path.join(tsconfigDir, '.build'),
+            outDir: path.join(tsconfigDir, 'dist'),
             preserveConstEnums: true,
             rootDir: tsconfigDir,
             sourceMap: true,

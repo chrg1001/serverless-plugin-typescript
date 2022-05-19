@@ -7,7 +7,7 @@ import * as typescript from './typescript'
 import { watchFiles } from './watchFiles'
 
 const SERVERLESS_FOLDER = '.serverless'
-const BUILD_FOLDER = '.build'
+const BUILD_FOLDER = 'dist'
 
 export class TypeScriptPlugin {
   private originalServicePath: string
